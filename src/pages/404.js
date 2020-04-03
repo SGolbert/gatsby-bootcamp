@@ -4,15 +4,16 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import Head from "../components/Head"
 
-function IndexPage() {
+function NotFound() {
   return (
     <Layout>
-      <Head title="Home" />
-      <h1>Hello.</h1>
-      <h2>I'm Seba.</h2>
-      <Link to="/contact">Contact me!</Link>
+      <Head title="404" />
+      <h1>Page not found</h1>
+      <p>
+        <Link to="/">head home</Link>
+      </p>
     </Layout>
   )
 }
 
-export default IndexPage
+export default NotFound
