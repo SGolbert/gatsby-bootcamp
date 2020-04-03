@@ -9,7 +9,7 @@ function IndexPage() {
     <Layout>
       <Head title="Home" />
       <h1>Hello.</h1>
-      <h2>I'm Seba.</h2>
+      <h2>I'm John.</h2>
       <Link to="/contact">Contact me!</Link>
     </Layout>
   )
